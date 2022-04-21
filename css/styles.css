@@ -1,30 +1,82 @@
+:root {
+  --header-color: #ffffff;
+  --first-btn-color: #ffffff
+  --second-btn-color: #212121;
+  --accent-color: #2196F3
+}
+
+
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .list {
   list-style: none;
 }
-
+  
 .link {
   text-decoration: none;
 }
 
-.header-link {
- 
+/*---------------HEADER--------------------------------*/
+
+ .header {
+   background-color: white;
+ }
+
+ .header-link:hover,
+ .header-link:focus {
+   color: var(--accent-color);
+ }
+
+
+
+.header-link {   
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+.header-mail {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+}
+
+.heder-tel {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.header-btn {
+  font-family: inherit;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.88;
 /* identical to box height, or 188% */
 
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
-color: #FFFFFF;
+color: var(--first-btn-color);
 }
 
 
+ /*-------------HERO---------------------------*/
 
 
 
@@ -32,27 +84,3 @@ color: #FFFFFF;
 
 
 
-header{
-  display: flex;
-  justify-content:space-around
-}
-.headerLeft img{
-  width: 145px;
-}
-.headerLeft li{
-display: inline-block;
-}
-.headerLeft{
-  display: flex;
-  justify-content: space-around;
-}
-.headerRight{
-  display: flex;
-  justify-content: space-around;
-}
-.headerRight a{
-  padding: 10px;
-}
-p {
-  color: violet;
-}
