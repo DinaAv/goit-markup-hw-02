@@ -94,7 +94,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14x;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -126,7 +126,7 @@ a {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -163,7 +163,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -174,7 +174,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
@@ -195,7 +195,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -220,7 +220,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -281,7 +281,6 @@ a {
 .contact-list-item,
 .contact-list-item a {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -366,7 +365,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.88x;
+  line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
